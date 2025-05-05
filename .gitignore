@@ -4,4 +4,7 @@ opus-mt-zh-en/*
 *.bin
 *.tar
 *.h5
-
+data/*
+result/*
+lora_model/*
+GenAI-Hw5/*
