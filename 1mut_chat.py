@@ -1,7 +1,6 @@
 from openai import OpenAI
 import os
 
-os.environ['OPENAI_API_KEY'] = "sk-738af55c0b224bf79edca4b48a95dab1"
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY',"null")
 assert OPENAI_API_KEY != "null"
 
